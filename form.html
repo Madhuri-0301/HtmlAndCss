@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form action="table.html" method="get"> <!-- form tag is use to create the form-->
+      <label for="username">UserName : </label>
+      <input type="text" id="username" placeholder="username" required />
+      <br />
+      <br />
+
+      <label for="email">Email : </label>
+      <input type="email" id="email" placeholder="email" required />
+      <br />
+      <br />
+
+      <label for="password">Password : </label>
+      <input type="password" id="password" placeholder="password" required />
+      <br />
+      <br />
+
+      <p>Select Your Gender</p>
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="male" value="male" />
+
+      <label for="female">Female</label>
+      <input type="radio" name="Gender" id="female" value="female" />
+
+      <label for="other">Other</label>
+      <input type="radio" name="Gender" id="other" value="other" />
+      <br />
+      <br />
+
+      <label for="age-group">Select Your Age Group</label>
+      <select name="group" id="age-group">
+        <option value="5-10">5-10</option>
+        <option value="11-21">11-21</option>
+        <option value="21-50">21-50</option>
+        <option value="50+">50+</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

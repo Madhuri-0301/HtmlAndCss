@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/*  Webisite of color picker : https://www.google.com/search?q=color+picker&oq=color&aqs=chrome.1.69i57j0i433i512l2j46i433i512j0i433i512j0i131i433i512j46i433i512j69i61.2324j0j7&sourceid=chrome&ie=UTF-8 */
+/* rgb stands for red,blue,green */
+/* 0-255 is range for rgb */
+/* hex code is color using # */
+/* 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f is range for hex code */
+.roshan {
+    color: gray;
+}
+
+.paragraph {
+    /* color: navy; */
+    color: #b30f0f;
+    /* first two stand for red 2nd for green 3rd for blue*/
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Poppins', sans-serif;
+}
